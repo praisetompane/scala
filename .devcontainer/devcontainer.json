@@ -1,0 +1,16 @@
+{
+	"name": "scala",
+	"image": "mcr.microsoft.com/devcontainers/java",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"scala-lang.scala",
+				"scalameta.metals"
+			],
+			"settings": {}
+		}
+	},
+	"workspaceMount": "source=${localWorkspaceFolder},target=/scala,type=bind,consistency=delegated",
+	"workspaceFolder": "/scala",
+	"runArgs": []
+}
