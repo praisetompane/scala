@@ -1,6 +1,8 @@
 # Scala
 
-**objective**: an in-depth study of Scala, its implementation and ecosystem.
+![build status](https://github.com/praisetompane-programming-languages/scala/actions/workflows/scala.yaml/badge.svg) <br>
+
+**objective**: An in-depth study of Scala's implementation and ecosystem.
 
 ## Language Details: 
 - [language reference](https://docs.scala-lang.org/scala3/reference/)
@@ -22,13 +24,6 @@
 
 ## Use Cases:
 - [Applications for Language]()
-- Large Implementations:
-    - https://github.com/lichess-org
-    - https://github.com/twitter/util
-    - https://github.com/twitter/finagle
-    - https://github.com/twitter/the-algorithm
-- Database Integration:
-- Web Development:
 
 ## Learning Resources:
 - roadmap:
@@ -39,6 +34,7 @@
 - [scala center](https://scala.epfl.ch/)
 - [scala cli](https://index.scala-lang.org/virtuslab/scala-cli)
 - [learn-scala-3-the-fast-way-book](https://alvinalexander.com/scala/learn-scala-3-the-fast-way-book/)
+
 
 ## References:
 

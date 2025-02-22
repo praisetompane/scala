@@ -1,11 +1,11 @@
 import scala.annotation.tailrec
-def length(arr: List[Int]): Int =
+def length(lst: List[Int]): Int =
   @tailrec
   def _length(total: Int, objects: List[Int]): Int = objects match 
     case List()       => total
     case head :: tail => _length(total + 1, tail)
 
-  _length(0, arr)
+  _length(0, lst)
 
 
 @main def main(): Unit = 

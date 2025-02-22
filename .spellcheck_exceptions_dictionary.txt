@@ -1,0 +1,24 @@
+# acronyms
+
+# authors
+Kernighan
+Ritchie
+praisetompane
+
+# concepts
+
+
+# course codes:
+
+
+# technology:
+
+
+# institutions:
+roadmap
+hackerrank
+
+
+# urls:
+https
+src
