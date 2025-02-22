@@ -1,6 +1,6 @@
-def filter_out_odd_indices(arr: List[Int]): List[Int] =
+def filter_out_odd_indices(lst: List[Int]): List[Int] =
   def is_odd(number: Int) = number % 2 == 1
-  arr.zipWithIndex
+  lst.zipWithIndex
     .filterNot { (value, index) => is_odd(index + 1) }
     .map { (value, index) => value }
 

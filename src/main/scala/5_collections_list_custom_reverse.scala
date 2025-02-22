@@ -1,4 +1,4 @@
-def reverse[T, L](arr: List[T]): List[T] = arr.zipWithIndex
+def reverse[T, L](lst: List[T]): List[T] = lst.zipWithIndex
   .sortWith { _._2 > _._2 }
   .map { case (value, index) => value }
 
