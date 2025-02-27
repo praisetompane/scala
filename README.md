@@ -1,10 +1,12 @@
 # Scala
+![build status](https://github.com/praisetompane/scala/actions/workflows/scala.yaml/badge.svg) <br>
 
-**objective**: An in-depth study of:
-- Scala's Compiler.
-- Scala's language design, implementation and ecosystem.
+## Objectives
+- An in-depth study of:
+    - Scala's Compiler.
+    - Scala's language design, implementation and ecosystem.
 
-## Language Details: 
+## Language Details
 - [language reference](https://docs.scala-lang.org/scala3/reference/)
 - compiler:
     - [Scala 3](https://github.com/scala/scala3)
@@ -14,31 +16,33 @@
 - packaging and package management:
     - [guide](https://www.baeldung.com/scala/package-app)
     - tools:
-        - sbt
-            - create new project: sbt new scala/scala-seed.g8
+        - [sbt](https://www.scala-sbt.org)
     - [third party modules/packages index](https://index.scala-lang.org/)
-- [extending and embedding]:
-- [developer contribution guide]:
+- extending and embedding:
+- developer contribution guide:
 
-## Testing:
+## Testing
 
-## Use Cases:
+## Use Cases
 - [Applications for Language]()
 
-## Learning Resources:
-- roadmap:
-- practice problems:
-
-
-## Community:
+## Community
 - [scala center](https://scala.epfl.ch/)
 - [scala cli](https://index.scala-lang.org/virtuslab/scala-cli)
 - [learn-scala-3-the-fast-way-book](https://alvinalexander.com/scala/learn-scala-3-the-fast-way-book/)
 
+## Learning Resources
+- roadmap:
+- practice problems:
 
-## References:
+## Spell Check
+```shell
+pyspelling -c spellcheck.yaml
+```
 
-## Legend:
+## References
+
+## Legend
 **Q**: Question for later research
 
 **MYINC**: My Insight/Conjecture [Could Be Unoriginal/False and Likely Is]
